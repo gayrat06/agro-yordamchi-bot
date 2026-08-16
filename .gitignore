@@ -1,0 +1,7 @@
+# Maxfiy fayllar (GitHub'ga chiqmaydi)
+.env
+.venv/
+venv/
+__pycache__/
+*.db
+*.sqlite3
