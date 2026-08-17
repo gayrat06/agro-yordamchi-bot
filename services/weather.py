@@ -19,7 +19,7 @@ def get_weather():
                 f"🌡 **Harorat:** {temp} °C\n"
                 f"💧 **Havo namligi:** {humidity} %\n"
                 f"💨 **Shamol tezligi:** {wind} km/soat\n\n"
-                f"💡 *Dehqonlarga tavsiya:* Shamol tezligi yuqori bo'lsa, purkash ishlarini (pestitsid/o'g'it) vaqtincha to'xtatib turgan "
+                f"💡 *Dehqonlarga tavsiya:* Shamol tezligi yuqori bo'lsa, purkash ishlarini (pestitsid/o'g'it) vaqtincha to'xtatib turgan ma'qul."
             )
             return text
         else:
