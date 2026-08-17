@@ -3,7 +3,7 @@ import logging
 from aiogram import Bot, Dispatcher
 from config import config
 from database import init_db
-from handlers import start, calc, prices, advice
+from handlers import start, calc, prices, advice, weather
 
 async def main():
     init_db()
@@ -17,6 +17,7 @@ async def main():
     dp.include_router(calc.router)
     dp.include_router(prices.router)
     dp.include_router(advice.router)
+    dp.include_router(weather.router)
 
     print("Bot muvaffaqiyatli ishga tushdi...")
     await dp.start_polling(bot)
